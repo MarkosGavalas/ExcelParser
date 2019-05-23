@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8f889268-e99f-41e1-b9a1-38fd70b33481" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/gd-client/gd-client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final/ssas/ssas/07_Code_Prod/gd-client/gd-client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final/ssas3/ssas/ssas/06_Code/gd-client/gd-client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final/ssas3/ssas/ssas/07_Code_Prod/gd-client/gd-client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExcelParser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/00_Load.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/00_Load_EEQ.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/00_Load_ETL_Check.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/00_Load_PROT_URL.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/00_Load_Parallel.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/00_Load_QVD_Check.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/00_Load_WSC.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/01A_ETL_CHECK.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/01B_LOAD_LOADSTATUS_CHECK.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/01C_LOAD_Delta_ProcessingDate.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/01_DELETE_WSC.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/02A_QVD_CHECK.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/02_DELETE_WSC.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/50_QVS-PROTOCOL/00_LoadApp.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/50_QVS-PROTOCOL/01_LOAD_DATEN_AKT.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/50_QVS-PROTOCOL/02_LOAD_ANZAHL_DIAGNOSEN_APP.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/50_QVS-PROTOCOL/03_LOAD_HO_APP.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/50_QVS-PROTOCOL/04_LOAD_HS_APP.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/50_QVS-PROTOCOL/05_LOAD_RELEASE_APP.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/50_QVS-PROTOCOL/06_LOAD_LAENDER_APP.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/50_QVS-PROTOCOL/07_LOAD_IAP2_APP.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/50_QVS-PROTOCOL/08_LOAD_ISO_MARKET_MAPPING_APP.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/50_QVS-PROTOCOL/Markos_QVD_GENERATOR" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/50_QVS-PROTOCOL/Variablen.qlikview-vars" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/50_QVS-PROTOCOL/Variablen.vars.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/50_QVS-PROTOCOL/dbconnection.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/50_QVS-PROTOCOL/settings.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/CALC_WSC.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/CALC_WSC_SDWH.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/HIVE_PROD.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/ISTA_Nuzung/00_LoadApp.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/ISTA_Nuzung/01_LOAD_DATEN_AKT.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/ISTA_Nuzung/02_LOAD_ANZAHL_DIAGNOSEN_APP.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/ISTA_Nuzung/03_LOAD_HO_APP.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/ISTA_Nuzung/04_LOAD_HS_APP.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/ISTA_Nuzung/05_LOAD_RELEASE_APP.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/ISTA_Nuzung/06_LOAD_LAENDER_APP.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/ISTA_Nuzung/07_LOAD_IAP2_APP.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/ISTA_Nuzung/08_LOAD_ISO_MARKET_MAPPING_APP.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/ISTA_Nuzung/Variablen.qlikview-vars" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/ISTA_Nuzung/Variablen.vars.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/ISTA_Nuzung/dbconnection.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/ISTA_Nuzung/sd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/ISTA_Nuzung/settings.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/ISTA_Nuzung/shit.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/ISTA_Nuzung/test_qkik.as" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/LOAD_BT_CONTEXT.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/LOAD_BT_ECULIST.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/LOAD_BT_HDDUPDATE_BEN.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/LOAD_BT_PROGRAMMING_ACTION.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/LOAD_BT_SWTDEACTIVATION.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/LOAD_DT_EQUIPMENT.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/LOAD_DT_PERSIST_12_WEEK_MA.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/LOAD_DT_SESSION.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/LOAD_DT_THERAPYPLAN.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/LOAD_FAV_PARALLEL.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/LOAD_PROT_URL.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/LOAD_TP_PARALLEL.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/TEST/LoopLoadQVS.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/TEST/RAMMonitor.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/TEST/SUBS.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/TEST/SUB_DEL_FILE.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/TEST/SUB_DoForEachFileLike.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/TEST/SUB_LoadDBtoQVD.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/TEST/SUB_LoadData.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/TEST/SUB_LoopLoadDB.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/TEST/SUB_LoopLoadQVD.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/TEST/SUB_Reload_FULL.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/TEST/SUB_StoreFile.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/TEST/SUB_getEnvironment.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/TEST/SUB_getMetaData.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/TEST/SUB_writeMetaData.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/TEST/Usefull_Variables.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/sdwhp_oracle.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/50_QVS/settings.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/82830.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Facts/Facts-xslt/test_protocols/bt_finall.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Facts/Facts-xslt/test_protocols/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Markos_Gavalas/Facts/Facts-xslt/test_protocols/parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Facts/Facts-xslt/test_protocols/test_protocol_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Facts/Facts-xslt/test_protocols/test_protocol_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Facts/Facts-xslt/test_protocols/test_protocol_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Facts/XSLT/XSLT.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Facts/XSLT/xslt_difficult/1_WBANA71040B000031_40634_40626_04_20180904_114620.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Facts/XSLT/xslt_difficult/MY_XSLT_COMMENTS.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Facts/XSLT/xslt_difficult/istaVorgangAbschnittv2011.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Facts/XSLT/xslt_difficult/output/1_WBA1A5100EJ499121_40634_40626_04_20180905_132901.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Facts/XSLT/xslt_difficult/output/1_WBANA71040B000031_40634_40626_04_20180904_114620.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Facts/XSLT/xslt_simple/data.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Facts/XSLT/xslt_simple/result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Facts/XSLT/xslt_simple/style.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Facts/XSLT/xslt_simple/test_style.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Facts/XSLT/~$XSLT.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Facts/XSLT/~WRL0003.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Facts/phat/HDDphad.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/.idea/BIG_data.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Assignment Spark.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/BIG_data-20180930T200610Z-001.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/BigData_OReilly.Hadoop.The.Definitive.Guide.4th.Edition.2015.3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Big_Data_Theory.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/1800.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/Book.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/Marvel-Graph.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/Marvel-Names.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/challenge_set.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/checkpoint/09ba7d8d-4a97-4f8c-9f6c-c554b2c39a66/rdd-28/__partitioner.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/checkpoint/09ba7d8d-4a97-4f8c-9f6c-c554b2c39a66/rdd-28/_part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/checkpoint/09ba7d8d-4a97-4f8c-9f6c-c554b2c39a66/rdd-28/_part-00001.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/checkpoint/09ba7d8d-4a97-4f8c-9f6c-c554b2c39a66/rdd-28/_part-00002.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/checkpoint/09ba7d8d-4a97-4f8c-9f6c-c554b2c39a66/rdd-28/_part-00003.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/checkpoint/09ba7d8d-4a97-4f8c-9f6c-c554b2c39a66/rdd-28/_partitioner" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/checkpoint/09ba7d8d-4a97-4f8c-9f6c-c554b2c39a66/rdd-28/part-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/checkpoint/09ba7d8d-4a97-4f8c-9f6c-c554b2c39a66/rdd-28/part-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/checkpoint/09ba7d8d-4a97-4f8c-9f6c-c554b2c39a66/rdd-28/part-00002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/checkpoint/09ba7d8d-4a97-4f8c-9f6c-c554b2c39a66/rdd-28/part-00003" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/customer-orders.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/degrees-of-separation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/fakefriends.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/friends-by-age(1).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/max-temperatures (1).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/min-temperatures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/ml-100k/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/ml-100k/allbut.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/ml-100k/mku.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/ml-100k/u.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/ml-100k/u.genre" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/ml-100k/u.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/ml-100k/u.item" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/ml-100k/u.occupation" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/ml-100k/u.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/ml-100k/u1.base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/ml-100k/u1.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/ml-100k/u2.base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/ml-100k/u2.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/ml-100k/u3.base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/ml-100k/u3.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/ml-100k/u4.base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/ml-100k/u4.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/ml-100k/u5.base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/ml-100k/u5.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/ml-100k/ua.base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/ml-100k/ua.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/ml-100k/ub.base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/ml-100k/ub.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/ml-1m/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/ml-1m/movies.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/ml-1m/ratings.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/ml-1m/users.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/most-popular-superhero.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/movie-recommendations-als.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/movie-similarities-1m.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/movie-similarities.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/popular-movies-dataframe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/popular-movies-nicer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/ratings-counter (1).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/ratings-counter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/regression.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/spark-linear-regression.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/spark-on-spotify.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/spark-sql.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/test-amount.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/total-spent-by-customer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/word-count-better-sorted.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/word-count-better.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/Spark_course/word-count.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/exams/EXAM_Markos_Gavalas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/exams/assignement_part_2/__MACOSX/__matrix_mult" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/exams/assignement_part_2/__MACOSX/__mid-term_assignment.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/exams/assignement_part_2/__MACOSX/matrix_mult/__.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/exams/assignement_part_2/__MACOSX/matrix_mult/__data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/exams/assignement_part_2/__MACOSX/matrix_mult/__matrix_mult.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/exams/assignement_part_2/__MACOSX/matrix_mult/__tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/exams/assignement_part_2/__MACOSX/matrix_mult/data/__.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/exams/assignement_part_2/__MACOSX/matrix_mult/data/__simple_matrix_a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/exams/assignement_part_2/__MACOSX/matrix_mult/data/__simple_matrix_b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/exams/assignement_part_2/__MACOSX/matrix_mult/tmp/__.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/exams/assignement_part_2/matrix_mult.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/exams/assignement_part_2/matrix_mult/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/exams/assignement_part_2/matrix_mult/data/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/exams/assignement_part_2/matrix_mult/data/simple_matrix_a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/exams/assignement_part_2/matrix_mult/data/simple_matrix_b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/exams/assignement_part_2/matrix_mult/jj.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/exams/assignement_part_2/matrix_mult/matrix_mult_Markos_Gavalas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/exams/assignement_part_2/matrix_mult/tmp/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/exams/assignement_part_2/matrix_mult/tmp/mmult.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/exams/assignement_part_2/mid-term_assignment.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/exams/data/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/exams/data/dishes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/exams/data/food_1st.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/exams/data/food_2nd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/exams/data/prices.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/exams/data/sample_a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/exams/data/sample_b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/exams/exam.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/exams/exam2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/exams/tmp/njoin02.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_1/0. Presentation/0. Presentation/.ipynb_checkpoints/0. Presentation-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_1/0. Presentation/0. Presentation/0. Presentation.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_1/1. Introduction/1. Introduction/.ipynb_checkpoints/1. Introduction-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_1/1. Introduction/1. Introduction/1. Introduction.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_1/1. Introduction/1. Introduction/Figures/Introduction_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_1/1. Introduction/1. Introduction/Figures/Introduction_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_1/1. Introduction/1. Introduction/Figures/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_1/1. Introduction/1. Introduction/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/2. Hadoop/2. Hadoop/.ipynb_checkpoints/2.Hadoop-HDFS-MapReduce-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/2. Hadoop/2. Hadoop/2.Hadoop-HDFS-MapReduce.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/2. Hadoop/2. Hadoop/Figures/Hadoop_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/2. Hadoop/2. Hadoop/Figures/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/2. Hadoop/2. Hadoop/Figures/hadoop_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/2. Hadoop/2. Hadoop/Figures/hadoop_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/2. Hadoop/2. Hadoop/Figures/hadoop_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/2. Hadoop/2. Hadoop/Figures/hadoop_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/2. Hadoop/2. Hadoop/Figures/hadoop_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/2. Hadoop/2. Hadoop/Figures/hadoop_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/2. Hadoop/2. Hadoop/Figures/hadoop_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/2. Hadoop/2. Hadoop/Figures/hadoop_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/2. Hadoop/2. Hadoop/Figures/hadoop_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/2. Hadoop/2. Hadoop/Figures/hadoop_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/2. Hadoop/2. Hadoop/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/lab1/.ipynb_checkpoints/LABS_1. Markos_Gavalas-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/lab1/.ipynb_checkpoints/lab1.Basic_MapReduce_Exercises-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/lab1/Figures/Lab1_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/lab1/Figures/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/lab1/Figures/lab1_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/lab1/Figures/lab1_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/lab1/LABS_1. Markos_Gavalas.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/lab1/data/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/lab1/data/ncdc.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/lab1/ex_00_wordcount.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/lab1/ex_01_max_temp_sta.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/lab1/ex_02_max_temp_year.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/lab1/ex_03_trend.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/lab1/ex_04_max_temp_sta_year.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/lab1/ex_05_north_vs_south.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/lab1/lab1.Basic_MapReduce_Exercises.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/lab1/lab1_jonatan_pinol.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/lab1/run_test.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/lab1/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/michaelfairley(github)/michaelfairley-mincemeatpy-588cbd3/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/michaelfairley(github)/michaelfairley-mincemeatpy-588cbd3/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/michaelfairley(github)/michaelfairley-mincemeatpy-588cbd3/_gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/michaelfairley(github)/michaelfairley-mincemeatpy-588cbd3/_travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/michaelfairley(github)/michaelfairley-mincemeatpy-588cbd3/example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/michaelfairley(github)/michaelfairley-mincemeatpy-588cbd3/mincemeat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/michaelfairley(github)/michaelfairley-mincemeatpy-588cbd3/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_2/michaelfairley(github)/michaelfairley-mincemeatpy-588cbd3/smoke.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/3. Hive/3. Hive/.ipynb_checkpoints/3.Hive-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/3. Hive/3. Hive/3.Hive.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/3. Hive/3. Hive/Figures/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/3. Hive/3. Hive/Figures/hive_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/3. Hive/3. Hive/Figures/hive_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/3. Hive/3. Hive/Figures/hive_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/3. Hive/3. Hive/Figures/hive_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/3. Hive/3. Hive/Figures/hive_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/3. Hive/3. Hive/Figures/hive_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/3. Hive/3. Hive/Figures/hive_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/3. Hive/3. Hive/Figures/hive_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/3. Hive/3. Hive/Figures/hive_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/3. Hive/3. Hive/Figures/hive_18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/3. Hive/3. Hive/Figures/hive_19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/3. Hive/3. Hive/Figures/hive_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/3. Hive/3. Hive/Figures/hive_20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/3. Hive/3. Hive/Figures/hive_21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/3. Hive/3. Hive/Figures/hive_22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/3. Hive/3. Hive/Figures/hive_23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/3. Hive/3. Hive/Figures/hive_24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/3. Hive/3. Hive/Figures/hive_25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/3. Hive/3. Hive/Figures/hive_26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/3. Hive/3. Hive/Figures/hive_27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/3. Hive/3. Hive/Figures/hive_28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/3. Hive/3. Hive/Figures/hive_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/3. Hive/3. Hive/Figures/hive_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/3. Hive/3. Hive/Figures/hive_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/3. Hive/3. Hive/Figures/hive_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/3. Hive/3. Hive/Figures/hive_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/3. Hive/3. Hive/Figures/hive_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/3. Hive/3. Hive/Figures/hive_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/3. Hive/3. Hive/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/lab2/.ipynb_checkpoints/Pi_darts-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/lab2/Pi_darts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/lab2/Pi_darts.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/lab2/darts.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/lab2/ex_pi).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_3/lab2/expi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL-yale.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL/Figures/SQL-Dia1-Fig1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL/Figures/SQL-Dia2-Fig1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL/Figures/SQL-Dia3-Fig1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL/Figures/SQL-Dia5-Fig1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL/Figures/SQL-Dia5-Fig1.tiff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL/Figures/SQL-Dia5-Fig2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL/Figures/SQL-Dia5-Fig2.tiff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL/Figures/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL/SQL - Dia 1 - Introduccion al SQL.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL/SQL - Dia 1 - Introduccion al SQL.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL/SQL - Dia 2 - Consultas avanzadas.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL/SQL - Dia 2 - Lenguaje de Definicion de Datos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL/SQL - Dia 2 - Lenguaje de Definicion de Datos.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL/SQL - Dia 3 - Modificacion de la Base de Datos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL/SQL - Dia 3 - Modificacion de la Base de Datos.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL/SQL - Dia 4 - Consultas avanzadas.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL/__MACOSX/Figures/__.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL/__MACOSX/Figures/__SQL-Dia1-Fig1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL/__MACOSX/Figures/__SQL-Dia2-Fig1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL/__MACOSX/Figures/__SQL-Dia3-Fig1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL/__MACOSX/Figures/__SQL-Dia5-Fig1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL/__MACOSX/Figures/__SQL-Dia5-Fig1.tiff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL/__MACOSX/Figures/__SQL-Dia5-Fig2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL/__MACOSX/Figures/__SQL-Dia5-Fig2.tiff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL/__MACOSX/__Figures" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL/__MACOSX/__SQL - Dia 1 - Introduccion al SQL.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL/__MACOSX/__SQL - Dia 1 - Introduccion al SQL.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL/__MACOSX/__SQL - Dia 2 - Consultas avanzadas.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL/__MACOSX/__SQL - Dia 2 - Lenguaje de Definicion de Datos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL/__MACOSX/__SQL - Dia 2 - Lenguaje de Definicion de Datos.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL/__MACOSX/__SQL - Dia 3 - Modificacion de la Base de Datos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL/__MACOSX/__SQL - Dia 3 - Modificacion de la Base de Datos.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL/__MACOSX/__SQL - Dia 4 - Consultas avanzadas.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_4/SQL_NOTEBOOK.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/.ipynb_checkpoints/lab2.Relational.Algebra-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/Figures/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/Figures/lab2_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/Figures/lab2_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/Figures/lab2_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/Figures/lab2_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/Figures/lab2_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/Figures/lab2_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/Figures/lab2_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/Figures/lab2_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/Figures/lab2_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/Figures/lab2_18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/Figures/lab2_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/Figures/lab2_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/Figures/lab2_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/Figures/lab2_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/Figures/lab2_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/Figures/lab2_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/Figures/lab2_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/Figures/lab2_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/Figures/__.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/Figures/__lab2_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/Figures/__lab2_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/Figures/__lab2_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/Figures/__lab2_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/Figures/__lab2_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/Figures/__lab2_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/Figures/__lab2_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/Figures/__lab2_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/Figures/__lab2_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/Figures/__lab2_18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/Figures/__lab2_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/Figures/__lab2_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/Figures/__lab2_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/Figures/__lab2_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/Figures/__lab2_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/Figures/__lab2_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/Figures/__lab2_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/Figures/__lab2_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/__Figures" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/__data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/__ex_01_selection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/__ex_02_projection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/__ex_03_cartesian_product.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/__ex_04_union.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/__ex_05_difference.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/__ex_06_intersection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/__ex_07_nat_join.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/__ex_09_group.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/__ex_query_01.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/__ex_query_02.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/__ex_query_03.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/__ex_query_04.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/__lab2.Relational.Algebra.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/__tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/data/__.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/data/__dishes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/data/__food_1st.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/data/__food_2nd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/data/__prices.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/data/__sample_a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/data/__sample_b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/__MACOSX/tmp/__.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/data/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/data/dishes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/data/food_1st.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/data/food_2nd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/data/prices.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/data/sample_a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/data/sample_b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/db_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/ex_01_selection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/ex_02_projection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/ex_03_cartesian_product.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/ex_04_union.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/ex_05_difference.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/ex_06_intersection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/ex_07_nat_join.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/ex_09_group.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/ex_query_01.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/ex_query_02.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/ex_query_03.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/ex_query_04.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/lab2.Relational.Algebra.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/recipe.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/tmp/cprod.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/tmp/diff.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/tmp/grp02.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/tmp/intsec01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/tmp/intsec02.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/tmp/njoin02.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/tmp/proj_01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/tmp/query1/njoin02.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/tmp/query1/result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/tmp/query1/sel_veg.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/tmp/query2/intsec01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/tmp/query2/intsec02.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/tmp/query2/q2_s5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/tmp/query2/sel_veg.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/tmp/query2/veg_food.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/tmp/query3/frst_dish.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/tmp/query3/intsec01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/tmp/query3/intsec02.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/tmp/query3/med_food.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/tmp/query3/q3_s8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/tmp/query3/scnd_dish.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/tmp/query3/sel_med.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/tmp/query4/diff.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/tmp/query4/intsec01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/tmp/query4/labels.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/tmp/query4/out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/tmp/query4/union.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/tmp/query4/union2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/tmp/query4/veg_food.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/tmp/sel_01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3.minihive/tmp/union.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3_AdrianDuenas/data/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3_AdrianDuenas/data/dishes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3_AdrianDuenas/data/food_1st.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3_AdrianDuenas/data/food_2nd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3_AdrianDuenas/data/prices.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3_AdrianDuenas/data/sample_a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3_AdrianDuenas/data/sample_b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3_AdrianDuenas/ex_01_selection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3_AdrianDuenas/ex_02_projection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3_AdrianDuenas/ex_03_cartesian_product.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3_AdrianDuenas/ex_04_union.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3_AdrianDuenas/ex_05_difference.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3_AdrianDuenas/ex_06_intersection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3_AdrianDuenas/ex_07_nat_join.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3_AdrianDuenas/ex_09_group.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3_AdrianDuenas/ex_query_01.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3_AdrianDuenas/ex_query_02.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3_AdrianDuenas/ex_query_03.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_5/Lab3_AdrianDuenas/ex_query_04.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/4. Spark/.ipynb_checkpoints/4.Annex_1_Linear_Regression-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/4. Spark/.ipynb_checkpoints/4.SparkQL_DataFrames-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/4. Spark/.ipynb_checkpoints/4.Spark_Intro-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/4. Spark/4.Annex_1_Linear_Regression.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/4. Spark/4.SparkQL_DataFrames.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/4. Spark/4.Spark_Intro.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/4. Spark/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/4. Spark/images/Linear_regression_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/4. Spark/images/RDD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/4. Spark/images/RDD_actions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/4. Spark/images/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/4. Spark/images/actions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/4. Spark/images/data_sharing_mapreduce.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/4. Spark/images/data_sharing_spark.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/4. Spark/images/driver_workers_spark_architecture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/4. Spark/images/generalization_problem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/4. Spark/images/key-value_transformations.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/4. Spark/images/transformations.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/__MACOSX/4. Spark/.ipynb_checkpoints/__4.Annex_1_Linear_Regression-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/__MACOSX/4. Spark/.ipynb_checkpoints/__4.SparkQL_DataFrames-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/__MACOSX/4. Spark/.ipynb_checkpoints/__4.Spark_Intro-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/__MACOSX/4. Spark/__.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/__MACOSX/4. Spark/__.ipynb_checkpoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/__MACOSX/4. Spark/__4.Annex_1_Linear_Regression.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/__MACOSX/4. Spark/__4.SparkQL_DataFrames.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/__MACOSX/4. Spark/__4.Spark_Intro.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/__MACOSX/4. Spark/__images" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/__MACOSX/4. Spark/images/__.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/__MACOSX/4. Spark/images/__Linear_regression_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/__MACOSX/4. Spark/images/__RDD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/__MACOSX/4. Spark/images/__RDD_actions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/__MACOSX/4. Spark/images/__actions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/__MACOSX/4. Spark/images/__data_sharing_mapreduce.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/__MACOSX/4. Spark/images/__data_sharing_spark.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/__MACOSX/4. Spark/images/__driver_workers_spark_architecture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/__MACOSX/4. Spark/images/__generalization_problem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/__MACOSX/4. Spark/images/__key-value_transformations.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/__MACOSX/4. Spark/images/__transformations.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_6/4. Spark/__MACOSX/__4. Spark" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_7/Lab1_Spark_WordCount.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_8/Lab1_Spark_WordCount (1).ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_8/Lab1_Spark_WordCount.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_8/Lab1_Spark_WordCount_good.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_9/Spark_streaming/.ipynb_checkpoints/Lab2_batch_streaming-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_9/Spark_streaming/.ipynb_checkpoints/Spark_dataframes-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_9/Spark_streaming/Lab2_batch_streaming.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/week_9/Spark_streaming/Spark_dataframes.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/wooflix/Wooflix/Design.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/wooflix/Wooflix/HOWTO.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/wooflix/Wooflix/IndexedData.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/wooflix/Wooflix/PostRatingTraining.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/wooflix/Wooflix/README.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/wooflix/Wooflix/Training.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/wooflix/Wooflix/src/ez_setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/wooflix/Wooflix/src/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/wooflix/Wooflix/src/wooflix/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/wooflix/Wooflix/src/wooflix/indexing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/wooflix/Wooflix/src/wooflix/model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/wooflix/Wooflix/src/wooflix/parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/wooflix/Wooflix/src/wooflix/wooflixcli.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/BIG_data/wooflix/Wooflix/svd_plus_plus-formula.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/Big Data.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/Linux command lines.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/BigData_Courses_Barcelona/~$nux command lines.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/HORTONWORKS.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/1800.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/DataFrames.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/DegreesOfSeparation.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/FriendsByAge.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/GraphX.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/LearningScala1.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/LearningScala2.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/LearningScala3.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/LearningScala4.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/LinearRegression.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/LinearRegressionDataFrame.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/Marvel-graph.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/Marvel-names.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/MaxTemperatures.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/MinTemperatures.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/MostPopularSuperhero.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/MovieRecommendationsALS.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/MovieSimilarities.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/MovieSimilarities1M.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/PopularHashtags.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/PopularMovies.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/PopularMoviesDataSets.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/PopularMoviesNicer.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/RatingsCounter.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/SparkSQL.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/TotalSpentByCustomer.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/TotalSpentByCustomerSorted.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/WordCount.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/WordCountBetter.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/WordCountBetterSorted.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/book.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/customer-orders.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/dstream-twitter_2.11-2.3.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/fakefriends.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/regression.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/sbt/build.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/sbt/project/assembly.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/sbt/src/main/scala/MovieSimilarities1M.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/twitter.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/twitter4j-core-4.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/twitter4j-stream-4.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/SparkScala/SparkScala/winutils.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/ml-100k/ml-100k.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/ml-100k/ml-100k/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/ml-100k/ml-100k/allbut.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/ml-100k/ml-100k/mku.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/ml-100k/ml-100k/u.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/ml-100k/ml-100k/u.genre" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/ml-100k/ml-100k/u.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/ml-100k/ml-100k/u.item" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/ml-100k/ml-100k/u.occupation" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/ml-100k/ml-100k/u.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/ml-100k/ml-100k/u1.base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/ml-100k/ml-100k/u1.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/ml-100k/ml-100k/u2.base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/ml-100k/ml-100k/u2.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/ml-100k/ml-100k/u3.base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/ml-100k/ml-100k/u3.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/ml-100k/ml-100k/u4.base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/ml-100k/ml-100k/u4.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/ml-100k/ml-100k/u5.base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/ml-100k/ml-100k/u5.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/ml-100k/ml-100k/ua.base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/ml-100k/ml-100k/ua.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/ml-100k/ml-100k/ub.base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/ml-100k/ml-100k/ub.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/pdfs/ACN@BMW_Data_Lake_Management_Data_Protection.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/pdfs/ACN@BMW_Data_processing_on_Hadoop.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/pdfs/ACN@BMW_Hadoop_basics.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/pdfs/ACN@BMW_Hive@BigData.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/pdfs/ACN@BMW_Using_the_BMW_Big_Data_Platform.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/HORTONWORDS/pdfs/ACN@BMW_Using_the_BMW_Data_Lake.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/MV.7z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Other/Markoulis.kdbx" beforeDir="false" afterPath="$PROJECT_DIR$/../Markos_Gavalas/Other/Markoulis.kdbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Python2_Plugin_DEMO.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Apps/Airline Operations.qvw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Apps/Airline_Operations.qvw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Apps/Chapter_7.qvw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Apps/Config.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Apps/SetVariables.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Apps/Solution_Chapter 10_Airline Operations.qvw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Apps/Solution_Chapter 11_Airline Operations.qvw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Apps/Solution_Chapter 2_Airline Operations.qvw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Apps/Solution_Chapter 3_Airline Operations.qvw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Apps/Solution_Chapter 5_Airline Operations.qvw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Apps/Solution_Chapter 6_Airline Operations.qvw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Apps/Solution_Chapter 7_Airline Operations.qvw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Apps/Solution_Chapter 8_Airline Operations.qvw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Apps/Solution_Chapter 8_Concatenated tables.qvw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Apps/Solution_Chapter 8_Link table.qvw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Apps/Solution_Chapter 8_Link table.qvw.2014_02_25_14_33_43.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Apps/Solution_Chapter 8_Link table.qvw.2014_02_25_15_24_15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Apps/Solution_Chapter 8_Link table.qvw.2014_02_25_15_25_11.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Apps/TraceRowCount.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Data Files/CSVs/Aircraft_2010_Update.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Data Files/CSVs/Aircraft_Base_File.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Data Files/CSVs/Aircraft_Group.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Data Files/CSVs/Aircraft_Manufacturers.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Data Files/CSVs/Destination Markets.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Data Files/CSVs/Origin Markets.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Data Files/CSVs/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Data Files/Excel/Comments.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Data Files/MDBs/Dimension Tables.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Data Files/QVDs/Aircraft Configuration.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Data Files/QVDs/Aircraft Groups.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Data Files/QVDs/Aircraft Types Transformed.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Data Files/QVDs/Aircraft Types.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Data Files/QVDs/AircraftTypesTransformed.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Data Files/QVDs/Airlines.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Data Files/QVDs/Carrier Decode.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Data Files/QVDs/Carrier Groups.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Data Files/QVDs/Carrier Operating Region.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Data Files/QVDs/Destination Airports.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Data Files/QVDs/Destination Markets.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Data Files/QVDs/Destination World Areas.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Data Files/QVDs/Distance Groups.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Data Files/QVDs/Flight Data.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Data Files/QVDs/Flight Types.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Data Files/QVDs/Origin Airports.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Data Files/QVDs/Origin Markets.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Data Files/QVDs/Origin World Areas.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Data Files/QVDs/Service Classes.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Data Files/QVDs/T_F41SCHEDULE_P1A_EMP.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Design/Highcloud_Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Design/Highcloud_Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Design/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Design/warning.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Side Examples/Chapter 8/Aircrafts.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Side Examples/Chapter 8/CreateCalendarFromField.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Side Examples/Chapter 8/Flights.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Side Examples/Chapter 8/Solution_Dimensionless Facts.qvw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Side Examples/Chapter 9/Crosstable example.qvw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Side Examples/Chapter 9/Crosstable example.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Side Examples/Chapter 9/Employment Statistics - CrossTable.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Side Examples/Chapter 9/Generic DB.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Side Examples/Chapter 9/Generic Load.qvw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Side Examples/Chapter 9/Hierarchy example.qvw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Side Examples/Chapter 9/Hierarchy example.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Side Examples/Chapter 9/Hierarchy.qvw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Side Examples/Chapter 9/Production Planning - Legacy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 1 - 11/QlikView Development/Airline Operations/Side Examples/Chapter 9/Production Planning.qvw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/0.Includes/Config.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/0.Includes/SetVariables.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/0.Includes/Themes/HighCloudCorporate.qvt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/0.Includes/Themes/HighCloudCorporate_finished.qvt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/0.Includes/TraceRowCount.qvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Dimension Tables/Aircraft_2010_Update.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Dimension Tables/Aircraft_Base_File.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Dimension Tables/Aircraft_Group.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Dimension Tables/Aircraft_Manufacturers.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Dimension Tables/L_AIRCRAFT_CONFIG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Dimension Tables/L_AIRCRAFT_GROUP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Dimension Tables/L_AIRCRAFT_TYPE.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Dimension Tables/L_AIRLINE_ID.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Dimension Tables/L_AIRPORT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Dimension Tables/L_AIRPORT_ID.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Dimension Tables/L_AIRPORT_SEQ_ID.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Dimension Tables/L_CANCELLATION.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Dimension Tables/L_CARRIER_GROUP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Dimension Tables/L_CARRIER_GROUP_NEW.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Dimension Tables/L_CITY_MARKET_ID.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Dimension Tables/L_CITY_MARKET_SEQ_ID.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Dimension Tables/L_DATA_SOURCE.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Dimension Tables/L_DEPARRBLK.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Dimension Tables/L_DISTANCE_GROUP_250.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Dimension Tables/L_DISTANCE_GROUP_500.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Dimension Tables/L_ONTIME_DELAY_GROUPS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Dimension Tables/L_REGION.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Dimension Tables/L_SERVICE_CLASS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Dimension Tables/L_STATE_ABR_AVIATION.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Dimension Tables/L_STATE_FIPS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Dimension Tables/L_UNIQUE_CARRIERS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Dimension Tables/L_WORLD_AREA_CODES.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Dimension Tables/L_YESNO_RESP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Dimension Tables/T_AIRCRAFT_TYPES_All_All.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Dimension Tables/T_CARRIER_DECODE_All_All.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Dimension Tables/T_MASTER_CORD_All_All.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Dimension Tables/T_WAC_COUNTRY_STATE_All_All.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Examples/Intervals.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Examples/Ordering Data.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Fact Tables/T_F41SCHEDULE_P1A_EMP_All_All.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Fact Tables/T_T100_SEGMENT_ALL_CARRIER_2009_All.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Fact Tables/T_T100_SEGMENT_ALL_CARRIER_2010_All.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Fact Tables/T_T100_SEGMENT_ALL_CARRIER_2011_All.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/1.Source Data/Metadata/Comments.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/2.Workbooks/Examples/Solution_Intervals Example.qvw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/2.Workbooks/Examples/Solution_Ordering Data.qvw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/2.Workbooks/QVD Extract - Dimension Tables.qvw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/2.Workbooks/QVD Extract - T_F41SCHEDULE_P1A_EMP.qvw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/2.Workbooks/QVD Extract - T_T100_SEGMENT_ALL_CARRIER.qvw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/2.Workbooks/Solution_Transform - Carrier Decode.qvw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/2.Workbooks/Solution_Transform - Employment Data.qvw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/2.Workbooks/Solution_Transform - Flight Data.qvw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/2.Workbooks/Transform - Aircrafts.qvw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/3.QVD/Source/Aircraft Configuration.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/3.QVD/Source/Aircraft Groups.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/3.QVD/Source/Aircraft Types.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/3.QVD/Source/Airlines.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/3.QVD/Source/Carrier Decode.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/3.QVD/Source/Carrier Groups.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/3.QVD/Source/Carrier Operating Region.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/3.QVD/Source/Destination Airports.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/3.QVD/Source/Destination Markets.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/3.QVD/Source/Destination World Areas.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/3.QVD/Source/Distance Groups.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/3.QVD/Source/Flight Data.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/3.QVD/Source/Flight Types.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/3.QVD/Source/Origin Airports.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/3.QVD/Source/Origin Markets.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/3.QVD/Source/Origin World Areas.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/3.QVD/Source/Service Classes.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/3.QVD/Source/T_F41SCHEDULE_P1A_EMP.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/3.QVD/Source/T_T100_SEGMENT_ALL_CARRIER_2009.QVD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/3.QVD/Source/T_T100_SEGMENT_ALL_CARRIER_2010.QVD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/3.QVD/Source/T_T100_SEGMENT_ALL_CARRIER_2011.QVD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/3.QVD/Transformed/Aggregated Flight Data.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/3.QVD/Transformed/Aircraft Types Transformed.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/3.QVD/Transformed/Employment Statistics.QVD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/3.QVD/Transformed/Transformed - Carrier Decode.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/3.QVD/Transformed/Transformed - Flight Data.qvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/4.Applications/Examples/NoTheme.qvw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/4.Applications/Solution_Chapter 12_Airline Operations.qvw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/4.Applications/Solution_Chapter 13_Airline Operations.qvw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Daten/Chapters 12 - 14/QlikView Development/Airline Operations/4.Applications/Solution_Chapter 14_Airline Operations.qvw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/QlikView 11 for Developers - Packt Publishing.url" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/QlikView 11 for Developers.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Qlikview Einführung/QlikView11forDevelopers/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/SSAS-master_downloaded/KeePass/KeePass_SSAS.kdbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/SSAS_migrate/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Markos_Gavalas/SSAS_migrate/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/SSAS_migrate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Markos_Gavalas/SSAS_migrate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/SSAS_migrate/ssas.migrate-master@0e683d3fe7a/conf/database.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/SSAS_migrate/ssas.migrate-master@0e683d3fe7a/src/main/java/com/bmw/bigdata/ssas/migrate/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Markos_Gavalas/SSAS_migrate/ssas.migrate-master@0e683d3fe7a/src/main/java/com/bmw/bigdata/ssas/migrate/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/SSAS_migrate/ssas.migrate-master@0e683d3fe7a/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Schul/Hive_BMW_Schulung.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Schul/Schulung_BMW_Hive.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Schul/Schulung_BMW_MapReduce&amp;Spark.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Schul/Spark_BMW_Schulung.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Schul/certification.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Schul/test.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/Schul/test2.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/akkaffee-development.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/bachupnutzungsgrad/backup.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/cd_takerates/CD_Take_Rates.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/cd_takerates/Neues Textdokument.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/cd_takerates/OTO/CD_Generator_Backup.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/cd_takerates/QVD_Generator_LOAD_BACKUP.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Markos_Gavalas/ssas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/egrc-ws-client/src/main/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/egrc-ws-client/src/main/resources/de/deloitte/bmwssas/source/pojo/jaxb.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/egrc-ws-client/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/egrc-ws-client/src/main/resources/table.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/egrc-ws-client/src/test/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/egrc-ws-client/src/test/resources/table.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/egrc-ws-client/src/test/resources/table/all-guids.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/egrc-ws-client/src/test/resources/table/best-practice.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/egrc-ws-client/src/test/resources/table/crisis-team-t-mi.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/egrc-ws-client/src/test/resources/table/crisis-team.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/egrc-ws-client/src/test/resources/table/facilities.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/egrc-ws-client/src/test/resources/table/threats.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/email-client/src/main/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/email-client/src/main/resources/email.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/email-client/src/test/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/email-client/src/test/resources/email.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/gd-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/gd-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/gd-client/src/main/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/gd-client/src/test/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/oozie-adb/src/main/oozie/coordinator/job.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/oozie-csv-compaction/src/main/oozie/bundle/job.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/oozie-csv-compaction/src/main/oozie/lib/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/oozie-gd/src/main/oozie/bundle/job.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/oozie-ibws/src/main/oozie/bundle/job.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/oozie-ibws/src/main/oozie/lib/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/oozie-smdb/src/main/oozie/bundle/job.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/oozie-smdb/src/main/oozie/lib/best-practice.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/oozie-smdb/src/main/oozie/lib/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/spark-io/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/spark-io/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/spark-io/src/main/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/spark-io/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/06_Code/spark-io/src/test/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/07_Code_Prod/corsica-prod/bundle/job.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/07_Code_Prod/email/coordinator/job.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/07_Code_Prod/email/workflow/job.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/07_Code_Prod/gd-client/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/07_Code_Prod/gd-client/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/07_Code_Prod/gd-client/src/main/java/de/deloitte/bmwssas/staged/GroupDirClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/07_Code_Prod/gd-client/src/main/java/de/deloitte/bmwssas/staged/GroupDirClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/07_Code_Prod/gd-client/src/main/java/de/deloitte/bmwssas/staged/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/07_Code_Prod/gd-client/src/main/java/de/deloitte/bmwssas/staged/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/07_Code_Prod/gd-client/src/main/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/07_Code_Prod/gd-client/src/test/java/de/deloitte/bmwssas/LdapServerRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/07_Code_Prod/gd-client/src/test/java/de/deloitte/bmwssas/source/LdapClientTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/07_Code_Prod/gd-client/src/test/java/de/deloitte/bmwssas/source/PersonTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/07_Code_Prod/gd-client/src/test/java/de/deloitte/bmwssas/staged/GroupDirClientTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/07_Code_Prod/gd-client/src/test/resources/bmw.ldif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/07_Code_Prod/gd-client/src/test/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/07_Code_Prod/gd-client/src/test/resources/ldap.ldif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/07_Code_Prod/gd-client/src/test/resources/ldap_NoParent.ldif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/07_Code_Prod/gd-client/src/test/resources/ldap_generated_parent.ldif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/07_Code_Prod/gd-client/src/test/resources/oidschema.ldif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/07_Code_Prod/gd-client/src/test/resources/schemaAndContent_bmw.ldif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/07_Code_Prod/gd-client/src/test/resources/single.ldif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/07_Code_Prod/gd-client/target/test-classes/de/deloitte/bmwssas/LdapServerRule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/07_Code_Prod/gd-client/target/test-classes/de/deloitte/bmwssas/source/LdapClientTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/07_Code_Prod/gd-client/target/test-classes/de/deloitte/bmwssas/source/PersonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/07_Code_Prod/gd-client/target/test-classes/de/deloitte/bmwssas/staged/GroupDirClientTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/07_Code_Prod/master-tables/coordinator/job.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/07_Code_Prod/oozie-gd-1.0-SNAPSHOT/bundle/job.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/07_Code_Prod/oozie-gd-1.0-SNAPSHOT/lib/spark-submit.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/07_Code_Prod/oozie-gd-1.0-SNAPSHOT/lib/spark-submit.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/07_Code_Prod/smdb/coordinator/job.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Markos_Gavalas/ssas/ssas/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-859072972">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="1" />
+          <entry key="Scratch" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ExcelParser.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ExcelParser.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="use_case" type="b2602c69:ProjectViewProjectNode" />
+              <item name="use_case" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f889268-e99f-41e1-b9a1-38fd70b33481" name="Default Changelist" comment="" />
+      <created>1558606566514</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558606566514</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="960" height="1040" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.52666664" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExcelParser.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
