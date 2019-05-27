@@ -9,6 +9,7 @@ from typing import List, Any
 from openpyxl import load_workbook
 import csv
 import os
+import numpy as np
 
 try:
     from StringIO import StringIO
@@ -69,6 +70,17 @@ for xslx in xslxs:
             table.append(parseri(xslx, config[excel_type]["sheet"], config[excel_type]["inter_rows"]))
 
 print(table)
+
+table_arr = np.array(table)
+Arbeitsplatz = table_arr[::2]
+
+Vorgesetzten =  table_arr[1::2]
+
+print(Arbeitsplatz)
+
+print("and")
+
+print(Vorgesetzten)
 
 """
 
