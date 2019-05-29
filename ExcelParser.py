@@ -73,8 +73,10 @@ print(table)
 
 table_arr = np.array(table)
 Arbeitsplatz = table_arr[::2]
+Vorgesetzten = table_arr[1::2]
 
-Vorgesetzten =  table_arr[1::2]
+np.savetxt("Arbeitsplatz.csv", Arbeitsplatz, delimiter=";", header='Zahlenwert_1-10;Anmerkungen', comments='', fmt='%s')
+np.savetxt("Vorgesetzten.csv", Vorgesetzten, delimiter=";", header='Zahlenwert_1-10;Anmerkungen', comments='', fmt='%s')
 
 print(Arbeitsplatz)
 
