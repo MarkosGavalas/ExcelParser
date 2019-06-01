@@ -1,5 +1,4 @@
-''' -------------------------------- Last Modified on Mon, 24 Mai 2019  --------------------------------'''
-from typing import List, Any
+""" -------------------------------- Last Modified on Mon, 01 Jun 2019  --------------------------------"""
 
 ''' -------------------------------- Author: Markos Gavalas             --------------------------------'''
 
@@ -17,7 +16,12 @@ except ImportError:
 
 ############################################################## configs
 
-'''Please insert here the excel sheet rows that correspond to the information you want to parse:'''
+'''Please insert here:
+ 1. The excel Table name
+ 2. The schema of the Table
+ 3. The sheets
+ 4. The excel sheet rows 
+ that you want to parse'''
 
 config = {
     "Zufriedenheit mit dem Arbeitsplatz" : {
@@ -25,7 +29,7 @@ config = {
         "sheet": "Mitarbeitergespräch",
         "inter_rows": 176
     },
-       "Zufriedenheit mit der Betreuung durch den Vorgesetzten (TL/AL)" : {
+       "Zufriedenheit mit der Betreuung durch den Vorgesetzten" : {
         "schema": ["Zahlenwert von 1-10", "Anmerkungen"],
         "sheet": "Mitarbeitergespräch",
         "inter_rows": 186
@@ -39,15 +43,15 @@ xslx_dir = "."
 '''The program will create 2 .csv files in the directory of the script'''
 '''The delimiter will be ;'''
 delimiter = ";"
-header = delimiter.join( config["Zufriedenheit mit dem Arbeitsplatz"]["schema"])
-#################################################################################
+header = delimiter.join(config["Zufriedenheit mit dem Arbeitsplatz"]["schema"])
+############################################################################
 xslxs = [f for f in os.listdir(xslx_dir) if f.endswith("xlsx")]
-print (xslxs)
-#Table with all the info
+print(xslxs)
+#List with all the info
 table = []
 
 #Function
-def parseri(xslx, SheetName, minmaxr):
+def parser(xslx, SheetName, minmaxr):
         wb = load_workbook(xslx)
         sheet = wb[SheetName]
         lista = []
@@ -60,19 +64,13 @@ def parseri(xslx, SheetName, minmaxr):
 
 for xslx in xslxs:
     for excel_type in config.keys():
-            table.append(parseri(xslx, config[excel_type]["sheet"], config[excel_type]["inter_rows"]))
-
-print(table)
+            table.append(parser(xslx, config[excel_type]["sheet"], config[excel_type]["inter_rows"]))
 
 table_arr = np.array(table)
-Arbeitsplatz = table_arr[::2]
-Vorgesetzten = table_arr[1::2]
 
-np.savetxt("Arbeitsplatz.csv", Arbeitsplatz, delimiter=delimiter, header=header, comments='', fmt='%s')
-np.savetxt("Vorgesetzten.csv", Vorgesetzten, delimiter=delimiter, header=header, comments='', fmt='%s')
+i = None
+for excel_type in config.keys():
+    name = excel_type.replace(" ", "_") + '.csv'
+    np.savetxt(name, table_arr[i::2], delimiter=delimiter, header=header, comments='', fmt='%s')
+    i = 1
 
-print(Arbeitsplatz)
-
-print("and")
-
-print(Vorgesetzten)
