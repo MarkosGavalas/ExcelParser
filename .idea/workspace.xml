@@ -2,56 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="496c1c60-7e7a-4e2a-8f91-3b0c73b2e29c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/2019_MUC_22320_Entwicklung_BR&amp;BI_Consulting.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/2019_MUC_22320_Entwicklung_BR&amp;BI_Consulting.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019_MUC_IT22320_Entwicklung_DataScience.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/2019_MUC_IT22320_Entwicklung_DataScience.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019_MUC_22320_Entwicklung_BR&amp;BI_Consulting.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019_MUC_IT22320_Entwicklung_DataScience.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ExcelParser.py" beforeDir="false" afterPath="$PROJECT_DIR$/ExcelParser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zufriedenheit_mit_dem_Arbeitsplatz.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Zufriedenheit_mit_dem_Arbeitsplatz.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zufriedenheit_mit_der_Betreuung_durch_den_Vorgesetzten.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Zufriedenheit_mit_der_Betreuung_durch_den_Vorgesetzten.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_view.qvw" beforeDir="false" afterPath="$PROJECT_DIR$/test_view.qvw" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-859072972">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="12" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="15" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="Python Console" value="34" />
-          <entry key="py" value="3454" />
-          <entry key="txt" value="299" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="299" />
-          <entry key="Python" value="3488" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages">
-        <counts>
-          <entry key="git.branch.create.new" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="py" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Python" value="2" />
-        </counts>
-      </usages-collector>
-    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="use_case" />
@@ -61,10 +24,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ExcelParser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="940">
-              <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+            <state relative-caret-position="320">
+              <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
               <folding>
-                <element signature="e#486#520#0" expanded="true" />
+                <element signature="e#488#522#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,6 +43,11 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>object</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -97,16 +65,15 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1216" />
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,10 +85,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
   </component>
@@ -240,14 +207,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1216" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4986226" visible="true" weight="0.17004265" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4986226" visible="true" weight="0.054371003" />
       <window_info id="Structure" order="1" sideWeight="0.5013774" side_tool="true" weight="0.28091684" />
       <window_info id="Favorites" order="2" sideWeight="0.5013774" side_tool="true" weight="0.28091684" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3102493" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27056277" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39981532" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -263,9 +231,6 @@
       <window_info anchor="right" id="R Packages" order="4" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;Check integration with pycharm&quot;" />
     <MESSAGE value="&quot;Add some initial code&quot;" />
@@ -280,10 +245,10 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ExcelParser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="940">
-          <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+        <state relative-caret-position="320">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
           <folding>
-            <element signature="e#486#520#0" expanded="true" />
+            <element signature="e#488#522#0" expanded="true" />
           </folding>
         </state>
       </provider>
